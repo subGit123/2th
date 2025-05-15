@@ -1,0 +1,20 @@
+.bodyContanier {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 540px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'GabiaSolmee';
+  src: url('./font/GabiaSolmee/gabia_solmee.ttf') format('truetype');
+}
