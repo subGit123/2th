@@ -52,7 +52,7 @@ const MainStyle = styled.div`
     animation-delay: 2.4s;
 
     p {
-      margin: 10px 0;
+      margin: 8.5px 0;
       font-size: 1.15rem;
       line-height: 1.25;
       color: #333;
@@ -150,7 +150,7 @@ const MainStyle = styled.div`
       animation-delay: 2.4s;
 
       p {
-        margin: 10px 0;
+        margin: 4.5px 0;
         font-size: 0.9rem;
         line-height: 1.25;
         color: #333;

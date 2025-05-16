@@ -30,7 +30,7 @@ const Home = () => {
       />
 
       <div
-        className={`page ${flipped ? 'flipped' : ''}`}
+        className="page"
         ref={currentRef}
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
@@ -39,6 +39,7 @@ const Home = () => {
           handleTouchEnd();
         }}>
         <img
+          className={`img ${flipped ? 'flipped' : ''}`}
           src={data[currentPage].img}
           alt={`${data[currentPage].date}`}
           loading="lazy"

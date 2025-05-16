@@ -15,13 +15,13 @@ const Fheader = ({handleOpen}: any) => {
 
       <div className="storyContainer">
         <span>
-          <Link to="/story" state={{start: 0, end: 31}}>
+          <Link to="/story" state={{start: 0, end: 29}}>
             <img src="../../main.jpg" alt="logo" className="mystory" />
-            <p>②주년</p>
           </Link>
+          <p>②주년</p>
         </span>
         <span>
-          <Link to="/story" state={{start: 0, end: 14}}>
+          <Link to="/story" state={{start: 0, end: 12}}>
             <img
               src="../../assets/photo/2023.jpg"
               alt="2023"
@@ -32,7 +32,7 @@ const Fheader = ({handleOpen}: any) => {
         </span>
 
         <span>
-          <Link to="/story" state={{start: 15, end: 29}}>
+          <Link to="/story" state={{start: 13, end: 27}}>
             <img
               src="../../assets/photo/2024.png"
               alt="2024"
@@ -43,7 +43,7 @@ const Fheader = ({handleOpen}: any) => {
         </span>
 
         <span>
-          <Link to="/story" state={{start: 30, end: 31}}>
+          <Link to="/story" state={{start: 28, end: 29}}>
             <img
               src="../../assets/photo/2025.jpeg"
               alt="2025"
@@ -131,7 +131,7 @@ const FheaderStyle = styled.div`
     border-radius: 50%;
     border: none;
     margin-bottom: -15px;
-    border: 1px solid #ccc;
+    border: 3.5px solid #ccc;
   }
 
   .storyimg {

@@ -31,7 +31,7 @@ const Header = ({date, start, end, currentPage}: HeaderProps) => {
         </div>
       </div>
 
-      {end - start > 28 ? (
+      {end - start > 26 ? (
         <div ref={currentRef}>
           <span className="number-page">
             <p className="active">{currentPage + 1}</p>/{end}

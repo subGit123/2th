@@ -14,9 +14,7 @@ const Letter = ({handleOpen}: any) => {
 };
 
 const LetterStyle = styled.div`
-  position: fixed;
-  top: 0;
-  left: 0;
+  position: absolute;
   max-width: 540px;
   width: 100%;
   height: 100vh;
@@ -28,6 +26,12 @@ const LetterStyle = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
+
+  @media screen and (max-width: 579px) {
+    position: fixed;
+    top: 0;
+    left: 0%;
+  }
 
   @-webkit-keyframes slit-in-vertical {
     0% {
